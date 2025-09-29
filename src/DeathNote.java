@@ -175,6 +175,78 @@ public class DeathNote {
             score++;
         } else {
             System.out.println("Resposta errada! A resposta correta é:a) Lawliet ");
+
+        }
+        System.out.println("Pergunta 11: Qual o nome do novo kira que surge após a morte de light? ");
+        System.out.println("a) Minoru Tanaka");
+        System.out.println("b) Mello");
+        System.out.println("c) Teru Mikami");
+        System.out.println("d) Kira");
+        System.out.println("e) Rem");
+        System.out.print("Sua resposta: ");
+        String resposta11 = scanner.nextLine();
+
+        if (resposta11.equalsIgnoreCase("a")) {
+            System.out.println("Resposta correta!");
+            score++;
+        } else {
+            System.out.println("Resposta errada! A resposta correta é:a) Minoru Tanaka ");
+        }
+            System.out.println("Pergunta 12: Quem é o autor do Death Note? ");
+        System.out.println("a) Tsugumi Ohba");
+        System.out.println("b) Ichiro Obata");
+        System.out.println("c) Oda Nobuhiro");
+        System.out.println("d) Neymar");
+        System.out.println("e) Obama");
+        System.out.print("Sua resposta: "); 
+        String resposta12 = scanner.nextLine();
+        if (resposta12.equalsIgnoreCase("a")) {
+            System.out.println("Resposta correta!");
+            score++;
+        } else {
+            System.out.println("Resposta errada! A resposta correta é:a) Tsugumi Ohba ");
+        }
+            System.out.println("Pergunta 13: Qual é o nome do pai do kira? ");
+        System.out.println("a) neymar");
+        System.out.println("b) Soichiro Yagami");
+        System.out.println("c) Tota Matsuda");
+        System.out.println("d) Ryuk");
+        System.out.println("e) Teru Mikami");
+        System.out.print("Sua resposta: ");
+        String resposta13 = scanner.nextLine();
+        if (resposta13.equalsIgnoreCase("b")) {
+            System.out.println("Resposta correta!");
+            score++;
+        } else {
+            System.out.println("Resposta errada! A resposta correta é:b) Soichiro Yagami ");
+        }
+            System.out.println("Pergunta 14: Qual é o nome do shinigami que é apaixonado por Misa Amane? ");
+        System.out.println("a) Ryuk"); 
+        System.out.println("b) Rem");
+        System.out.println("c) Sidoh");     
+        System.out.println("d) Gelus");
+        System.out.println("e) Jealous");               
+        System.out.print("Sua resposta: ");
+        String resposta14 = scanner.nextLine(); 
+        if (resposta14.equalsIgnoreCase("b")) {
+            System.out.println("Resposta correta!");
+            score++;
+        } else {
+            System.out.println("Resposta errada! A resposta correta é:b) Rem ");
+        }
+        System.out.println("Pergunta 15: Qual a pessoa que criou esse quiz? ");
+        System.out.println("a) Brenno Pimenta da Costa");
+        System.out.println("b) Pedro Henrique Alves Lisita");   
+        System.out.println("c) Neymar");     
+        System.out.println("d) Obama");  
+        System.out.println("e) Henrique e Juliano");
+        System.out.print("Sua resposta: ");
+        String resposta15 = scanner.nextLine();     
+        if (resposta15.equalsIgnoreCase("b")) {
+            System.out.println("Resposta correta!");
+            score++;
+        } else {
+            System.out.println("Resposta errada! A resposta correta é:b) Pedro Henrique Alves Lisita ");
         }
 
 
@@ -186,4 +258,5 @@ public class DeathNote {
 
         scanner.close();
     }
-}
+}           
+
